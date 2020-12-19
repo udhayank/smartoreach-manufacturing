@@ -46,3 +46,15 @@
   width: 100%;
   object-fit: contain;
 }
+
+
+@media (max-width:576px) {
+  .SW20-01-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .SW20-01-grid * {
+    text-align: center;
+  }
+}

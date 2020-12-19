@@ -1,5 +1,5 @@
 #SW14-01 {
-  padding: 40px 0;
+  padding: 40px 0 20px 0;
 }
 .SW14-01-card {
   padding: 10px;
@@ -29,9 +29,31 @@
   text-align: center;
   color: #444;
 }
-.SW14-01-card > p {
+.SW14-01-p-bottom {
   text-align: center;
   color: #888;
   margin-top: 0;
   font-size: 1.2rem;
+}
+.SW14-01-p-top {
+  text-align: center;
+  color: #888;
+  margin-top: 0;
+  font-size: 1.2rem;
+  display: none;
+}
+
+
+@media (max-width:576px) {
+  .SW14-01-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+  }
+  .SW14-01-p-bottom {
+    display: none;
+  }
+  .SW14-01-p-top {
+    display: block;
+  }
 }

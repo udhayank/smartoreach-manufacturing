@@ -1,3 +1,6 @@
+#SW16-01 {
+  padding: 20px 0;
+}
 #SW16-01 > h2 {
   background-color:  rgb(228, 225, 247);
   box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.1),
@@ -80,4 +83,34 @@
   padding: 0 10%;
   color: #888;
   text-align: center;
+}
+
+
+@media (max-width:576px) {
+  #SW16-01 > h2 {
+    font-size: 1.4rem;
+  }
+  .SW16-01-card {
+    padding-top: 130px;
+  }
+  .SW16-01-card img {
+    position: absolute;
+    width: 40%;
+    object-fit: contain;
+    top: 10px;
+    left: 30%;
+  }
+  .SW16-01-card h3 {
+    z-index: 10;
+
+  }
+  .SW16-01-card p {
+    padding: 0 10px;
+    z-index: 10;
+    text-align: justify;
+  }
+  .SW16-01-team-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
 }

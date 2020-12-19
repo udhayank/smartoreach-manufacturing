@@ -1,5 +1,5 @@
 #SW21-01 {
-
+  padding: 20px 0;
 }
 #SW21-01 > h2 {
   background-color:  rgb(226, 240, 217);
@@ -71,4 +71,11 @@
   width: 50%;
   font-weight: bold;
   border-right: 1px solid #ddd;
+}
+
+
+@media (max-width:576px) {
+  #SW21-01 > h2 {
+    font-size: 1.4rem;
+  }
 }

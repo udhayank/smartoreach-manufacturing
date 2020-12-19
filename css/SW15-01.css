@@ -1,3 +1,6 @@
+#SW15-01 {
+  padding: 20px 0;
+}
 #SW15-01 > h2 {
   background-color:  rgb(228, 225, 247);
   box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.1),
@@ -38,4 +41,18 @@
   margin-left: -1px;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1),
               -3px -3px 4px rgba(255, 255, 255, 0.6);
+}
+
+
+@media (max-width:576px) {
+  #SW15-01 > h2 {
+    font-size: 1.4rem;
+  }
+  .SW15-01-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .SW15-01-card {
+    height: 200px;
+  }
 }

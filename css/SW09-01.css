@@ -51,3 +51,13 @@
   text-decoration: none;
   color: #444;
 }
+
+
+@media (max-width:576px) {
+  .SW09-01-nav {
+    display: none;
+  }
+  #SW09-01 {
+    grid-template-columns: 100%;
+  }
+}

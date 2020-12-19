@@ -1,5 +1,5 @@
 #SW19-01 {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 .SW19-01 {
   margin: 0 20%;
@@ -90,4 +90,22 @@
   color:  rgb(242, 244, 249);
   background-color: rgb(54,76,96);
 
+}
+
+
+@media (max-width:576px) {
+  .SW19-01 {
+    margin: 0;
+    padding: 15px;
+  }
+  .SW19-01 > h2 {
+    font-size: 1.4rem;
+  }
+  .SW19-01-phone {
+    width: 70%;
+    margin-left: 8px;
+  }
+  .SW19-01-countrycode  {
+    /* padding: 0; */
+  }
 }

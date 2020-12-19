@@ -1,5 +1,5 @@
 #SW12-01 {
-
+  padding: 20px 0;
 }
 #SW12-01 > h2 {
   background-color:  rgb(218, 227, 243);
@@ -48,4 +48,16 @@
   text-align: center;
   color: #888;
   margin-top: 0;
+}
+
+
+@media (max-width:576px) {
+  #SW12-01 > h2 {
+    font-size: 1.4rem;
+  }
+  .SW12-01-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
 }

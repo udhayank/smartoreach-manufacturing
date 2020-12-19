@@ -32,3 +32,11 @@
 .SW11-01-text p {
   color: #888;
 }
+
+
+@media (max-width:576px) {
+  .SW11-01-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+}
