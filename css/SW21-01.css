@@ -1,0 +1,17 @@
+#SW21-01 {
+
+}
+#SW21-01 > h2 {
+  background-color:  #fff;
+  box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.1),
+              inset -3px -3px 4px rgba(255, 255, 255, 0.6);
+  line-height: 2;
+  padding-left: 15px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  color: #444;
+}
+.SW21-01-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fi   )
+}
