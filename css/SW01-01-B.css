@@ -139,11 +139,21 @@
   border-bottom: 1px solid rgba(217,217,217,0.4);
 }
 
+.SW01-01-B-nav-about-sm {
+  display: none;
+}
+
 @media (max-width:576px) {
   .SW01-01-B-btn-callnow {
     display: none;
   }
   .SW01-01-B-btn-whatsapp {
     display: none;
+  }
+  .SW01-01-B-nav-about-lg {
+    display: none;
+  }
+  .SW01-01-B-nav-about-sm {
+    display: block; 
   }
 }
