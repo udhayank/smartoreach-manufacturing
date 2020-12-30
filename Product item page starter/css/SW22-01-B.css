@@ -185,3 +185,30 @@ td {
   flex-wrap: wrap;
   margin-left: 10px;
 } */
+
+@media (max-width:576px) {
+
+.SW22-01-B-nav {
+  display: none;
+}
+.SW22-01-B-products {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.SW22-01-B-products-details-wrapper {
+  width: 100%;
+  padding-top: 30px;
+}
+#SW22-01-B {
+  grid-template-columns: 100%;
+}
+.SW22-01-B-products-img-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+}
